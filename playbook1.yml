@@ -6,3 +6,4 @@
       shell: uname -a > /home/ubuntu/output.txt
     - name: print my username
       shell: whoami >> /home/ubuntu/output.txt
+      
