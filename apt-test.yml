@@ -6,4 +6,4 @@
     - name: Ansible apt install Apache
       apt:
         name: apache2
-        state: present
+        state: absent
