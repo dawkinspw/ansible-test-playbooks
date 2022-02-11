@@ -1,6 +1,6 @@
 ---
  - name: Playbook to install Apache
-   hosts: server2
+   hosts: all
    become: true
    tasks: 
     - name: Ansible apt update all packages
